@@ -1,0 +1,37 @@
+# requirements.txt
+
+# Core dependencies
+streamlit==1.31.0
+langchain>=0.1.0
+langchain-community>=0.0.14
+langchain-openai>=0.1.0
+openai>=1.10.0
+python-dotenv==1.0.0
+
+# Video processing
+youtube-transcript-api==0.6.1
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# System monitoring
+watchdog==3.0.0
+
+# Optional - for better performance
+setuptools>=65.5.1
+wheel>=0.38.0
+
+
+
+langchain-core
+pypdf
+lxml
+langchain-groq
+langgraph
+langgraph-cli[inmem]
+
+#openai 
+google-auth 
+google-auth-oauthlib 
+google-auth-httplib2 
+google-api-python-client
+ipykernel
